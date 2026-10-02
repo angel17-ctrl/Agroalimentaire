@@ -1,15 +1,6 @@
-const BoutonMath = document.getElementById("BoutonMath");
-const BoutonPhysique = document.getElementById("BoutonPhysique");
-const BoutonBio = document.getElementById("BoutonBio");
+const BoutonForm = document.getElementById("BoutonForm");
 
-BoutonMath.addEventListener("click", function () {
-    window.location.href = "pages/Math.html";
+BoutonForm.addEventListener("click", function () {
+    window.location.href = "pages/Formulation.html";
   });
 
-BoutonPhysique.addEventListener("click", function () {
-    window.location.href = "pages/Physique.html";
-  });
-
-  BoutonBio.addEventListener("click", function () {
-    window.location.href = "pages/Bio.html";
-  });
